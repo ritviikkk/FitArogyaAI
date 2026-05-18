@@ -1319,6 +1319,14 @@ const HomeScreen = ({ user, cart, cartTotal, setScreen }) => {
       </div>
       {cart.length > 0 && (<button onClick={() => setScreen('delivery')} style={{ width: '100%', background: `linear-gradient(135deg, ${C.accent}, #FB923C)`, color: '#fff', border: 'none', borderRadius: 12, padding: '14px', fontSize: 14, fontWeight: 700, marginBottom: 14, cursor: 'pointer', fontFamily: 'inherit' }}>🛒 {cart.length} items — ₹{cartTotal} →</button>)}
       <a href="tel:112" style={{ display: 'block', textAlign: 'center', background: 'rgba(239,68,68,0.1)', border: `1px solid ${C.accent2}`, borderRadius: 12, padding: '14px', color: C.accent2, fontWeight: 700, fontSize: 14, textDecoration: 'none' }}>📞 Emergency — Call 112</a>
+    <a  href="https://ritviikkk.github.io/FitArogya/"
+  target="_blank"
+  rel="noopener noreferrer"
+  style={{ display: 'block', textAlign: 'center', marginTop: 12, background: `linear-gradient(135deg, ${C.accent}, ${C.accent4})`, borderRadius: 14, padding: '14px', textDecoration: 'none', color: '#fff', fontWeight: 700, fontSize: 14 }}
+>
+  🌐 FitArogya Website — Visit Now →
+
+  </a>
     </div>
   );
 };
